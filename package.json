@@ -1,0 +1,12 @@
+{
+  "name": "hero-section",
+  "version": "1.0.0",
+  "description": "hero-section only",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "author": "srinath",
+  "license": "ISC"
+}
